@@ -1,0 +1,470 @@
+/* Smartfones ( portrait and landscape ) ----------- */
+@media only screen and ( min-device-width : 320px ) and ( max-device-width : 480px ) {
+    
+}
+
+/*@media only screen and ( max-width : 360px ) {*/
+@media only screen and ( max-width : 480px ) {
+/*    html, body {
+        height: 100%;
+    }
+*/
+    .header-wrapper {
+        padding: 2px 5px 2px 5px;
+    }
+    .header-name {
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .header-link-box {
+        height: 25px;
+        line-height: 25px;
+        float: none;
+        right: 0px;
+    }
+    .header-link {
+        font-size: 22px;
+    }
+    .header-link a:link {
+        font-size: 22px;
+    }
+    .header-seperator {
+        margin: 0 5px 0 5px;
+    }
+    
+    /*Op mobiel, toon het rechter deel niet..*/
+    .wrapper-right {
+        /*display: none;*/
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    /*Zodat het linker deel volledig de ruimte heeft!*/
+    .wrapper-left {
+        width: 100%;
+        padding-left: 5px;
+        float: none;
+        display: block;
+    }
+    
+    .footer-wrapper {
+        padding: 2px 5px 2px 5px;
+        height: 62px;
+        line-height: 62px;
+    }
+    
+    /*Gallerij stukkie*/
+    .slide-wrapper {
+        padding-top: 0px;
+        width: 100%;
+    }
+    .left-div, .right-div {
+        display: block;
+        float: none;
+        width: 100%;
+        position: relative;
+        top: 0px;
+        padding: 2px;
+        height: auto;
+    }
+    ul.photolist {
+        list-style-type: none;
+        margin:0;
+        padding: 4px 2px;
+        overflow: hidden;
+        line-height: 81px;
+    }
+    .photolist.left-list {
+        text-align: left;
+    }
+    .photolist li {
+        display: inline;
+    }
+    .center-div {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 2px;
+    }
+    .smits {
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+        height: auto;
+    }
+    .img-responsive {
+        padding: 2px;
+    }
+}
+
+/*ipad device landscape and portrait*/
+@media only screen and ( min-device-width : 768px ) and (max-device-width : 1024px) {
+    .header-wrapper {
+        padding: 2px 5px 2px 5px;
+    }
+    .header-name {
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .header-link-box {
+        height: 25px;
+        line-height: 25px;
+        float: none;
+        right: 0px;
+    }
+    .header-link {
+        font-size: 22px;
+    }
+    .header-link a:link {
+        font-size: 22px;
+    }
+    .header-seperator {
+        margin: 0 5px 0 5px;
+    }
+    
+    /*Op mobiel, toon het rechter deel niet..*/
+    .wrapper-right {
+        /*display: none;*/
+    }
+    /*Zodat het linker deel volledig de ruimte heeft!*/
+    .wrapper-left {
+        /*width: 100%;*/
+        padding-left: 5px;
+    }
+    
+    .footer-space {
+        height: 170px;
+    }
+    
+    .footer-wrapper {
+        padding: 2px 5px 2px 5px;
+        height: 62px;
+        line-height: 62px;
+    }
+    
+    /*Gallerij stukkie*/
+    .slide-wrapper {
+        padding-top: 0px;
+        width: 100%;
+    }
+    .left-div, .right-div {
+        display: block;
+        float: none;
+        width: 100%;
+        position: relative;
+        top: 0px;
+        padding: 2px;
+        height: auto;
+    }
+    ul.photolist {
+        list-style-type: none;
+        margin:0;
+        padding: 4px 2px;
+        overflow: hidden;
+        line-height: 81px;
+    }
+    .photolist.left-list {
+        text-align: left;
+    }
+    .photolist li {
+        display: inline;
+    }
+    .center-div {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 2px;
+    }
+    .smits {
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+        height: auto;
+    }
+    .img-responsive {
+        padding: 2px;
+    }
+}
+
+/*ipad landscape..*/
+@media only screen and ( min-device-width : 768px ) and (max-device-width : 1024px) 
+    and ( orientation : landscape ) {
+    /*Op mobiel, toon het rechter deel niet..*/
+    .wrapper-left {
+        float: left;
+        display: inline-block;
+        width:48%;
+        height: 100vh;
+        white-space: normal;
+        line-height: 28px;
+        padding-left: 20px;
+        font-size: 38px;
+    }
+    .wrapper-right {
+        float: left;
+        display:inline-block;
+        padding: 5px;
+        width:48%;
+        height: 100vh;
+
+        background: url(/images/homepage.png) no-repeat;
+        background-size : 100% auto;
+        top: 0px;
+        overflow: hidden;
+    }
+    
+}
+
+/*iphone devices (4/4s/5/5s/6) landscape and portrait*/
+@media only screen and ( min-device-width : 320px ) and (max-device-width : 667px) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{
+    .header-wrapper {
+        padding: 2px 5px 2px 5px;
+    }
+    .header-name {
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .header-link-box {
+        height: 25px;
+        line-height: 25px;
+        float: none;
+        right: 0px;
+    }
+    .header-link {
+        font-size: 22px;
+    }
+    .header-link a:link {
+        font-size: 22px;
+    }
+    .header-seperator {
+        margin: 0 5px 0 5px;
+    }
+    
+    .site-wrapper {
+/*        background: url(/images/homepage.png) no-repeat;
+            background-size: 50% auto;*/
+    }
+    
+    /*Op mobiel, toon het rechter deel niet..*/
+    .wrapper-right {
+        /*display: none;*/
+        /*display: none;*/
+/*        float: none;
+        display: block;
+        width: 100%;*/
+        background-size: 100% auto;
+    }
+    /*Zodat het linker deel volledig de ruimte heeft!*/
+    .wrapper-left {
+        /*width: 100%;*/
+        padding-left: 5px;
+        /*display: none;*/
+        /*float: none;*/
+        /*display: block;*/
+        height: 100vh;
+    }
+    
+    .footer-space {
+        height: 170px;
+    }
+    
+    .footer-wrapper {
+        padding: 2px 5px 2px 5px;
+        height: 62px;
+        line-height: 62px;
+    }
+    
+    /*Gallerij stukkie*/
+    .slide-wrapper {
+        padding-top: 0px;
+        width: 100%;
+    }
+    .left-div, .right-div {
+        display: block;
+        float: none;
+        width: 100%;
+        position: relative;
+        top: 0px;
+        padding: 2px;
+        height: auto;
+    }
+    ul.photolist {
+        list-style-type: none;
+        margin:0;
+        padding: 4px 2px;
+        overflow: hidden;
+        line-height: 81px;
+    }
+    .photolist.left-list {
+        text-align: left;
+    }
+    .photolist li {
+        display: inline;
+    }
+    .center-div {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 2px;
+    }
+    .smits {
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+        height: auto;
+    }
+    .img-responsive {
+        padding: 2px;
+    }
+}
+
+/*iphone devices (6+) landscape and portrait*/
+@media only screen and ( min-device-width : 414px ) and (max-device-width : 736px) 
+    and (-webkit-min-device-pixel-ratio : 3)
+{
+    .header-wrapper {
+        padding: 2px 5px 2px 5px;
+    }
+    .header-name {
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .header-link-box {
+        height: 25px;
+        line-height: 25px;
+        float: none;
+        right: 0px;
+    }
+    .header-link {
+        font-size: 22px;
+    }
+    .header-link a:link {
+        font-size: 22px;
+    }
+    .header-seperator {
+        margin: 0 5px 0 5px;
+    }
+    
+    /*Op mobiel, toon het rechter deel niet..*/
+    .wrapper-right {
+        display: none;
+    }
+    /*Zodat het linker deel volledig de ruimte heeft!*/
+    .wrapper-left {
+        width: 100%;
+        padding-left: 5px;
+    }
+    
+    .footer-wrapper {
+        padding: 2px 5px 2px 5px;
+        height: 62px;
+        line-height: 62px;
+    }
+    
+    /*Gallerij stukkie*/
+    .slide-wrapper {
+        padding-top: 0px;
+        width: 100%;
+    }
+    .left-div, .right-div {
+        display: block;
+        float: none;
+        width: 100%;
+        position: relative;
+        top: 0px;
+        padding: 2px;
+        height: auto;
+    }
+    ul.photolist {
+        list-style-type: none;
+        margin:0;
+        padding: 4px 2px;
+        overflow: hidden;
+        line-height: 81px;
+    }
+    .photolist.left-list {
+        text-align: left;
+    }
+    .photolist li {
+        display: inline;
+    }
+    .center-div {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 2px;
+    }
+    .smits {
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+        height: auto;
+    }
+    .img-responsive {
+        padding: 2px;
+    }
+}
+
+/* Retina schermen..*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    /*Header*/
+    .header-wrapper {
+        padding: 2px 5px 2px 5px;
+    }
+    .header-name {
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .header-link-box {
+        height: 25px;
+        line-height: 25px;
+        float: none;
+        right: 0px;
+    }
+    .header-link {
+        font-size: 22px;
+    }
+    .header-link a:link {
+        font-size: 22px;
+    }
+    .header-seperator {
+        margin: 0 5px 0 5px;
+    }
+}
+/*@media (-webkit-min-device-pixel-ratio: 1.25) and (min-resolution: 122dpi) {*/
+@media screen and (max-device-width:1280px)
+    and (-webkit-min-device-pixel-ratio: 1) and (min-resolution: 122dpi) 
+{
+    /*Header*/
+    .header-wrapper {
+        padding: 2px 5px 2px 5px;
+    }
+    .header-name {
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .header-link-box {
+        height: 25px;
+        line-height: 25px;
+        float: none;
+        right: 0px;
+    }
+    .header-link {
+        font-size: 22px;
+    }
+    .header-link a:link {
+        font-size: 22px;
+    }
+    .header-seperator {
+        margin: 0 5px 0 5px;
+    }
+}
